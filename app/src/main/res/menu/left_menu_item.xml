@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+
+        <item
+            android:id="@+id/linked_in"
+            android:title="PADC-LinkedIn" />
+
+        <item
+            android:id="@+id/search"
+            android:title="PADC-Search" />
+
+        <item
+            android:id="@+id/won_zin"
+            android:title="PADC-Won Zin" />
+        <item
+            android:id="@+id/movie"
+            android:title="PADC-Movie" />
+        <item
+            android:id="@+id/pulse"
+            android:title="PADC-Pulse"
+            />
+    </group>
+
+</menu>

@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.htetaunglwin.padc_pulse.WonZinFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_margin="16dp"
+            android:background="@android:color/holo_red_light" />
+
+        <TextView
+            android:id="@+id/movie_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/view2"
+            android:paddingTop="16dp"
+            android:text="@string/book_name"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/btn_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/movie_name"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@id/view2"
+            android:background="@android:color/holo_orange_light"
+            android:text="Buy"
+            android:textAllCaps="true" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_detail"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@id/view2"
+            android:background="@android:color/holo_orange_light"
+            android:text="sample"
+            android:textAllCaps="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/view2"
+            android:layout_marginLeft="16dp"
+            android:text="File size: 2.43 MB"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="8dp"
+        android:background="@android:color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="@string/book_info"
+            android:textColor="@android:color/holo_red_light"/>
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white">
+        <View
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_blue_light" />
+        <View
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_green_light" />
+        <View
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_orange_light" />
+        <View
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_purple" />
+        <View
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:layout_margin="8dp"
+            android:background="@android:color/holo_red_light" />
+
+    </LinearLayout>
+    </HorizontalScrollView>
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

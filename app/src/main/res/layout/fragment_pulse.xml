@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.htetaunglwin.padc_pulse.PulseFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/lowsuperman" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/lowmystyle" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Good morning, Htet Aung"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Here are your top stories for the day"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/white"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:paddingLeft="16dp"
+           android:paddingRight="16dp"
+           android:paddingTop="16dp"
+           android:orientation="vertical">
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:layout_height="wrap_content"
+                   android:text="Editor's Pick"
+                   android:textSize="16sp"
+                   android:textStyle="bold"/>
+               <TextView
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="3h" />
+           </LinearLayout>
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="China Has High-Performing Companies- It Just Needs a Lot More of Them"
+               android:paddingTop="16dp"
+               android:textSize="20sp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Gordon Orr/ 131 shares"
+               android:paddingTop="8dp"
+               android:textSize="14sp"/>
+           <ImageView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:scaleType="centerCrop"
+               android:paddingTop="8dp"
+               android:paddingBottom="16dp"
+               android:adjustViewBounds="true"
+               android:src="@drawable/lowsuperman"/>
+
+       </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

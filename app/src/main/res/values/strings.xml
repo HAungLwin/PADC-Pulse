@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PADC-Pulse</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Htet Aung Lwin</string>
+    <string name="job">Android Developer</string>
+    <string name="info">Currently attending Computer Science at University of Yangon</string>
+    <string name="sap"><![CDATA[SAP Partner Solution Center Head for APJ \& Greater China]]></string>
+    <string name="about_movie">The peaceful realm of Azeroth stands on the brink of war as its civilization faces a fearsome race of incadrs: orc warriors feeling their dying home to colonize another. As a portal opens to connect t...</string>
+    <string name="book_info">Summary \n ... \n\nRelated books\n\nFunny Books</string>
+    <string name="book_name">Ma Kyi Pyar and Love \nNi Ko Ye\n700 KS</string>
+</resources>
